@@ -2,6 +2,8 @@
 
 Computer Science Engineering student building practical software across algorithms, systems programming, backend engineering, databases, and applied machine learning.
 
+B.Tech Computer Science Engineering at KL University · Expected graduation 2029
+
 ## Engineering focus
 
 - Data structures and algorithms with executable implementations and traceable experiments.
@@ -40,5 +42,6 @@ Deepening operating-systems, database, backend-architecture, testing, and produc
 - [LinkedIn](https://www.linkedin.com/in/shiva-reddy-karkala-1a66b4397/)
 - [Codolio](https://codolio.com/profile/2520030105)
 - [Portfolio](https://portfolio-shiva-c677.vercel.app)
+- [Email](mailto:karkalashivareddy@gmail.com)
 
 — **Karkala Shiva Reddy**
