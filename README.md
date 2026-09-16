@@ -27,8 +27,8 @@ B.Tech Computer Science Engineering at KL University · Expected graduation 2029
 
 - [ForgeSense Industrial Intelligence](https://github.com/karkalashivareddy/forgesense-industrial-intelligence) — Spring Boot + FastAPI industrial operations platform with digital-twin state, Kafka/Redis/PostgreSQL integrations, ML assessments, WebSockets, and a Three.js dashboard.
 - [LogInsight Analyzer](https://github.com/karkalashivareddy/KLH_CSE_2026-27_DSA-3_S3_T17_Loginsight-Analyzer) — full-stack log-analysis laboratory exposing string, dynamic-programming, graph/flow, approximation, randomized, and parallel algorithms through a REST API and trace UI.
-- [Portfolio](https://github.com/karkalashivareddy/portfolio) — Next.js/TypeScript portfolio application with typed project data, motion, command navigation, interview mode, and a client-side 3D scene.
-- [PharmaStock / Database Systems](https://github.com/karkalashivareddy/DataBase-System-and-Distributed-Backend-Development) — React/Vite medicine inventory interface, Express/Mongoose backend foundation, data models, seed utilities, and database coursework.
+- [Portfolio](https://github.com/karkalashivareddy/portfolio) — Next.js/TypeScript portfolio application with typed project data, Canvas 2D world scene, command palette, admin panel, and GitHub/Codolio integrations.
+- [PharmaStock / Database Systems](https://github.com/karkalashivareddy/DataBase-System-and-Distributed-Backend-Development) — React/Vite medicine inventory interface with local mock data and database coursework (backend is planned, not implemented).
 - [OSSP Systems Collection](https://github.com/karkalashivareddy/Creaters_Shell_OSSP) — C/Linux exercises including a mini shell, process lifecycle, signals, `/proc`, FIFO, and file-descriptor work.
 - [DSA2 Projects](https://github.com/karkalashivareddy/DSA2-Projects) — Java AVL insertion, range-query exercise, and Prim's minimum spanning tree.
 
