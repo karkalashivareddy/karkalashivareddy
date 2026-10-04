@@ -19,6 +19,18 @@
 | Portfolio | <https://portfolio-shiva-c677.vercel.app> | UNVERIFIED by web fetch (site was inaccessible to the browser tool); the current portfolio repository README says the URL is no longer serving the application; supplied URL retained with an explicit label |
 | Email | <mailto:karkalashivareddy@gmail.com> | Supplied public contact address |
 
+### Coding profiles
+
+The following profile-specific destinations were supplied by the account holder and are used in the README's algorithm-practice links. The web fetch tool could not access these platforms, so their current reachability is **UNVERIFIED**; no ratings or activity counts are claimed.
+
+| Platform | URL |
+| --- | --- |
+| LeetCode | <https://leetcode.com/u/KarkalaShivaReddy/> |
+| CodeChef | <https://www.codechef.com/users/shivareddy_27> |
+| Codeforces | <https://codeforces.com/profile/shiva_reddy_27> |
+| GeeksforGeeks | <https://www.geeksforgeeks.org/user/shiva0327/> |
+| HackerRank | <https://www.hackerrank.com/profile/karkalashivareddy> |
+
 ## Repository evidence and hierarchy
 
 ### Tier 1 — flagship engineering

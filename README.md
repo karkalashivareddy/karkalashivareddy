@@ -27,7 +27,7 @@
 
 ## Engineering identity
 
-I’m **Karkala Shiva Reddy** — Shiva — a Computer Science Engineering student at **KL University**, graduating in 2029. I build software across algorithms, systems programming, backend services, data, and applied machine learning, with a focus on how the pieces behave together.
+I’m **Karkala Shiva Reddy** — Shiva — a **B.Tech Computer Science Engineering student** at **KL University**, graduating in 2029. I build systems and backend software, algorithmic tools, and data-driven applications, with attention to correctness, observability, and clear architecture.
 
 My strongest project work is in **systems observability and algorithm-driven software**: a C/Linux process-execution observatory, an industrial operations platform, and an interactive lab for inspecting algorithms on log data.
 
@@ -117,9 +117,9 @@ These are coursework and practice repositories. The project READMEs describe wha
 
 ## Algorithm practice
 
-Algorithm work is a way to practice decomposition, complexity reasoning, data-structure choice, and edge-case discipline. LogInsight connects that practice to a larger application: implementations run against input data, and selected engines expose execution traces for inspection.
+I use **Java** for data-structure and algorithm work: decomposing problems, reasoning about complexity, choosing structures, and checking edge cases. LogInsight connects that practice to a larger application: implementations run against input data, and selected engines expose execution traces for inspection.
 
-[Codolio](https://codolio.com/profile/2520030105) · [LeetCode](https://leetcode.com/) · [CodeChef](https://www.codechef.com/) · [Codeforces](https://codeforces.com/) · [GeeksforGeeks](https://www.geeksforgeeks.org/) · [HackerRank](https://www.hackerrank.com/)
+[Codolio](https://codolio.com/profile/2520030105) · [LeetCode](https://leetcode.com/u/KarkalaShivaReddy/) · [CodeChef](https://www.codechef.com/users/shivareddy_27) · [Codeforces](https://codeforces.com/profile/shiva_reddy_27) · [GeeksforGeeks](https://www.geeksforgeeks.org/user/shiva0327/) · [HackerRank](https://www.hackerrank.com/profile/karkalashivareddy)
 
 No platform ratings or problem counts are shown here because I have not verified current figures for this README.
 

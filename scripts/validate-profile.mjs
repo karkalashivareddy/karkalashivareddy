@@ -18,6 +18,11 @@ const requiredUrls = [
   'https://github.com/karkalashivareddy/Command-Argument-Passing-System',
   'https://github.com/karkalashivareddy/forgesense-industrial-intelligence',
   'https://github.com/karkalashivareddy/KLH_CSE_2026-27_DSA-3_S3_T17_Loginsight-Analyzer',
+  'https://leetcode.com/u/KarkalaShivaReddy/',
+  'https://www.codechef.com/users/shivareddy_27',
+  'https://codeforces.com/profile/shiva_reddy_27',
+  'https://www.geeksforgeeks.org/user/shiva0327/',
+  'https://www.hackerrank.com/profile/karkalashivareddy',
 ];
 for (const url of requiredUrls) {
   if (!readme.includes(url)) fail(`missing required destination: ${url}`);
