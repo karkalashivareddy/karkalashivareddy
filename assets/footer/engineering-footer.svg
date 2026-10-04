@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 180" role="img" aria-labelledby="title desc">
+  <title id="title">Engineering profile closing mark</title><desc id="desc">Build, test, measure, improve. Karkala Shiva Reddy, Computer Science Engineering, class of 2029.</desc>
+  <defs><pattern id="grid" width="30" height="30" patternUnits="userSpaceOnUse"><path d="M30 0H0V30" fill="none" stroke="#253140" stroke-width=".7" opacity=".45"/></pattern><linearGradient id="line"><stop stop-color="#22D3EE" stop-opacity=".05"/><stop offset=".5" stop-color="#22D3EE" stop-opacity=".7"/><stop offset="1" stop-color="#22D3EE" stop-opacity=".05"/></linearGradient></defs>
+  <rect width="1200" height="180" rx="16" fill="#070A0F"/><rect width="1200" height="180" rx="16" fill="url(#grid)"/><path d="M45 35H1155" stroke="url(#line)"/>
+  <text x="600" y="83" text-anchor="middle" fill="#E6F3FA" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="24" font-weight="600" letter-spacing="1">BUILD  →  TEST  →  MEASURE  →  IMPROVE</text>
+  <text x="600" y="125" text-anchor="middle" fill="#22D3EE" font-family="IBM Plex Mono,Consolas,monospace" font-size="15" letter-spacing="2">KARKALA SHIVA REDDY  /  COMPUTER SCIENCE ENGINEERING  /  2029</text>
+  <text x="600" y="154" text-anchor="middle" fill="#718096" font-family="IBM Plex Mono,Consolas,monospace" font-size="12" letter-spacing="2">SYSTEMS · ALGORITHMS · BACKEND</text>
+</svg>

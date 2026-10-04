@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 200" role="img" aria-labelledby="title desc">
+  <title id="title">Personal engineering portfolio interface map</title><desc id="desc">Typed project data feeds a Next.js application, which composes page sections and interaction tools with a client-only Three.js scene.</desc>
+  <defs><pattern id="g" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#253140" stroke-width=".7" opacity=".4"/></pattern></defs>
+  <rect width="1100" height="200" rx="14" fill="#0B1017"/><rect width="1100" height="200" rx="14" fill="url(#g)"/>
+  <text x="28" y="35" fill="#22D3EE" font-family="IBM Plex Mono,Consolas,monospace" font-size="14" letter-spacing="2">05 / PERSONAL ENGINEERING INTERFACE</text>
+  <g fill="#10161F" stroke="#253140" stroke-width="1.4"><rect x="24" y="74" width="248" height="82" rx="10"/><rect x="298" y="74" width="248" height="82" rx="10"/><rect x="572" y="74" width="248" height="82" rx="10"/><rect x="846" y="74" width="230" height="82" rx="10"/></g>
+  <g fill="#E6F3FA" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="600"><text x="48" y="108">TYPED PROJECTS</text><text x="322" y="108">NEXT.JS APP</text><text x="596" y="108">INTERACTIONS</text><text x="870" y="108">3D SCENE</text></g>
+  <g fill="#A9B7C8" font-family="IBM Plex Mono,Consolas,monospace" font-size="13"><text x="48" y="135">data model</text><text x="322" y="135">page sections</text><text x="596" y="135">palette · interview mode</text><text x="870" y="135">client-only · R3F</text></g>
+  <g stroke="#22D3EE" stroke-width="2" fill="none"><path d="M272 115h18m-8-7 8 7-8 7"/><path d="M546 115h18m-8-7 8 7-8 7"/><path d="M820 115h18m-8-7 8 7-8 7"/></g>
+</svg>

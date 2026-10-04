@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 220" role="img" aria-labelledby="title desc">
+  <title id="title">CAPS process observatory architecture</title><desc id="desc">The C process engine emits lifecycle observations to the Node.js gateway, which serves API and event streams to the React observatory.</desc>
+  <defs><pattern id="g" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#253140" stroke-width=".7" opacity=".4"/></pattern></defs>
+  <rect width="1100" height="220" rx="14" fill="#0B1017"/><rect width="1100" height="220" rx="14" fill="url(#g)"/>
+  <text x="28" y="35" fill="#22D3EE" font-family="IBM Plex Mono,Consolas,monospace" font-size="14" letter-spacing="2">01 / PROCESS EXECUTION OBSERVATORY</text>
+  <g fill="#10161F" stroke="#253140" stroke-width="1.4"><rect x="30" y="72" width="275" height="104" rx="10"/><rect x="412" y="72" width="275" height="104" rx="10"/><rect x="795" y="72" width="275" height="104" rx="10"/></g>
+  <g fill="#22D3EE"><circle cx="54" cy="97" r="4"/><circle cx="436" cy="97" r="4"/><circle cx="819" cy="97" r="4"/></g>
+  <g fill="#E6F3FA" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="22" font-weight="600"><text x="70" y="104">C PROCESS ENGINE</text><text x="452" y="104">NODE GATEWAY</text><text x="835" y="104">REACT OBSERVATORY</text></g>
+  <g fill="#A9B7C8" font-family="IBM Plex Mono,Consolas,monospace" font-size="15"><text x="50" y="139">fork · exec · wait · signals</text><text x="432" y="139">REST · event stream · storage</text><text x="815" y="139">live state · traces · replay</text></g>
+  <g stroke="#22D3EE" stroke-width="2" fill="none"><path d="M305 124H396"/><path d="m386 117 10 7-10 7"/><path d="M687 124H779"/><path d="m769 117 10 7-10 7"/></g>
+  <text x="350" y="108" text-anchor="middle" fill="#67E8F9" font-family="IBM Plex Mono,Consolas,monospace" font-size="12">OBSERVATIONS</text><text x="733" y="108" text-anchor="middle" fill="#67E8F9" font-family="IBM Plex Mono,Consolas,monospace" font-size="12">API + SSE</text>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 220" role="img" aria-labelledby="title desc">
+  <title id="title">LogInsight algorithm analysis flow</title><desc id="desc">Bundled log datasets feed parsing and analytics plus executable algorithm engines. Selected runs are recorded as steps and returned to the React trace interface.</desc>
+  <defs><pattern id="g" width="28" height="28" patternUnits="userSpaceOnUse"><path d="M28 0H0V28" fill="none" stroke="#253140" stroke-width=".7" opacity=".4"/></pattern></defs>
+  <rect width="1100" height="220" rx="14" fill="#0B1017"/><rect width="1100" height="220" rx="14" fill="url(#g)"/>
+  <text x="28" y="35" fill="#A78BFA" font-family="IBM Plex Mono,Consolas,monospace" font-size="14" letter-spacing="2">03 / ALGORITHM + DATA-FLOW LAB</text>
+  <g fill="#10161F" stroke="#253140" stroke-width="1.4"><rect x="26" y="76" width="225" height="100" rx="10"/><rect x="310" y="76" width="225" height="100" rx="10"/><rect x="594" y="76" width="225" height="100" rx="10"/><rect x="878" y="76" width="196" height="100" rx="10"/></g>
+  <g fill="#A78BFA"><circle cx="48" cy="99" r="4"/><circle cx="332" cy="99" r="4"/><circle cx="616" cy="99" r="4"/><circle cx="900" cy="99" r="4"/></g>
+  <g fill="#E6F3FA" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="600"><text x="65" y="106">SAMPLE DATA</text><text x="349" y="106">JAVA API</text><text x="633" y="106">DSA ENGINES</text><text x="917" y="106">TRACE UI</text></g>
+  <g fill="#A9B7C8" font-family="IBM Plex Mono,Consolas,monospace" font-size="14"><text x="46" y="140">text · JSONL</text><text x="330" y="140">parse · analyze</text><text x="614" y="140">run · record steps</text><text x="898" y="140">inspect · replay</text></g>
+  <g stroke="#A78BFA" stroke-width="2" fill="none"><path d="M251 126h51m-9-7 9 7-9 7"/><path d="M535 126h51m-9-7 9 7-9 7"/><path d="M819 126h51m-9-7 9 7-9 7"/></g>
+</svg>
