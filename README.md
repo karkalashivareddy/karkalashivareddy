@@ -44,12 +44,12 @@ My strongest project work is in **systems observability and algorithm-driven sof
 ### 01 · Systems / process observability
 
 <a href="https://github.com/karkalashivareddy/Command-Argument-Passing-System">
-  <img src="assets/projects/caps-system-map.svg" alt="CAPS architecture: a C process engine reports execution events through a Node gateway and event stream to an interactive observability interface." width="100%">
+  <img src="assets/projects/caps-system-map.svg" alt="CAPS architecture: a C process engine reports procfs-backed events through a Fastify gateway and event stream to an interactive observability interface." width="100%">
 </a>
 
-**[Command Argument Passing System — Process Execution Observatory](https://github.com/karkalashivareddy/Command-Argument-Passing-System)** traces command execution through argument parsing, `fork`/`exec`, process state, signals, output, and exit status. The project pairs a C engine with a Node.js gateway and a React observatory for live event inspection and replay.
+**[Command Argument Passing System — Process Execution Observatory](https://github.com/karkalashivareddy/Command-Argument-Passing-System)** executes allowlisted commands through a C11/POSIX engine; a Fastify gateway and React observatory expose real child-process events, `/proc` measurements, signal controls, and replay. PID identity is guarded by kernel start time. Sampling is scoped to one tracked child; descendants are not represented.
 
-`C` · `Linux/POSIX` · `processes` · `signals` · `Node.js` · `REST/SSE` · `React/Vite`
+`C11/POSIX` · `Linux /proc` · `PID identity` · `signals` · `Fastify` · `SQLite` · `REST/SSE` · `React/Vite`
 
 **Evidence:** executable engine and web application, documented guardrails and lifecycle, test harnesses, and repository CI. [SOURCE](https://github.com/karkalashivareddy/Command-Argument-Passing-System) · [ARCHITECTURE](https://github.com/karkalashivareddy/Command-Argument-Passing-System/tree/main/docs)
 

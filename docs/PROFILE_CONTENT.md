@@ -23,7 +23,7 @@
 
 ### Tier 1 — flagship engineering
 
-1. **Command-Argument-Passing-System (CAPS):** implemented C/Linux process execution engine with a Node.js gateway and React observatory; process lifecycle, signals, output, and execution telemetry are documented. Source, tests, web application, docs, and CI exist in the current checkout.
+1. **Command-Argument-Passing-System (CAPS):** implemented C11/POSIX process execution engine with a Fastify gateway and React observatory; the system exposes real child-process events, procfs measurements, signal controls, and replay. PID identity is guarded by kernel start time, and sampling is scoped to one tracked child rather than its descendants. Source, tests, web application, docs, and CI exist in the current checkout.
 2. **ForgeSense Industrial Intelligence:** Spring Boot and FastAPI/scikit-learn services, synthetic telemetry producer, digital-twin/operations features, and Compose integration points for Kafka, PostgreSQL, Redis, Prometheus, and Grafana. The repository documents tests/CI and states that telemetry is synthetic and the project is not a production deployment.
 3. **LogInsight Analyzer:** Java/Spring Boot algorithm service and React/TypeScript frontend; sample log inputs, analytics, selected trace playback, and benchmark views. The README documents backend verification and frontend build workflows, and says runtime data is in-memory with no database. No fixed test count or coverage is repeated.
 
@@ -64,4 +64,4 @@ The README describes ongoing direction as deeper backend design, testing, databa
 
 GitHub GraphQL inspection found these current pins, in order: ForgeSense, LogInsight Analyzer, portfolio, PharmaStock / Database Systems, OSSP, and DSA2.
 
-Recommended order: **CAPS**, **ForgeSense**, **LogInsight Analyzer**, **PharmaStock / Database Systems**, **portfolio**. Leave the sixth slot empty until another repository adds comparable signal. Pins were not changed; this task leaves the live GitHub profile untouched and does not push.
+Recommended order: **CAPS**, **ForgeSense**, **LogInsight Analyzer**, **PharmaStock / Database Systems**, **portfolio**. Leave the sixth slot empty until another repository adds comparable signal. Pins were not changed during this release; configure the new order manually in GitHub profile settings.

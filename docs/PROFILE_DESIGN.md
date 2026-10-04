@@ -48,7 +48,7 @@ SVG assets specify `Inter, Segoe UI, Arial, sans-serif` with `IBM Plex Mono, SFM
 | `assets/projects/caps-system-map.svg` | Process engine to event/API to observatory |
 | `assets/projects/forgesense-industrial-map.svg` | Synthetic telemetry, services, storage, ML, views |
 | `assets/projects/loginsight-algorithm-flow.svg` | Dataset, executable analysis, trace, interface |
-| `assets/projects/pharmastock-data-flow.svg` | Frontend prototype and local fixture boundary |
+| `assets/projects/pharmastock-data-flow.svg` | React client, transaction API, and MongoDB replica-set boundary |
 | `assets/projects/portfolio-interface.svg` | Portfolio routes, typed content, and integrations |
 | `assets/footer/engineering-footer.svg` | Quiet closing mark and build loop |
 
@@ -60,7 +60,7 @@ All SVGs are self-contained, share the same tokens, and use a `viewBox` so Markd
 - **Tier 2 / Product and data engineering:** PharmaStock, personal portfolio.
 - **Tier 3 / Coursework and practice:** OSSP, DSA2, Hospital Bed Dashboard, Timetable Generator, FWD.
 
-The first project is an implemented process observatory; the similarly named GitHub repository must be used as the source link. It is no longer described as only an abstract.
+The first project is an implemented process observatory; the similarly named GitHub repository must be used as the source link. It is no longer described as only an abstract. Its procfs sampling is scoped to a tracked child; the profile does not imply descendant-process observation.
 
 ## Animation and GitHub constraints
 
