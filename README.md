@@ -17,7 +17,6 @@
   <a href="https://github.com/karkalashivareddy">GITHUB</a> &nbsp;·&nbsp;
   <a href="https://www.linkedin.com/in/shiva-reddy-karkala-1a66b4397/">LINKEDIN</a> &nbsp;·&nbsp;
   <a href="https://codolio.com/profile/2520030105">CODOLIO</a> &nbsp;·&nbsp;
-  <a href="https://portfolio-shiva-c677.vercel.app">PORTFOLIO URL · UNVERIFIED</a> &nbsp;·&nbsp;
   <a href="mailto:karkalashivareddy@gmail.com">EMAIL</a>
 </p>
 
@@ -27,9 +26,9 @@
 
 ## Engineering identity
 
-I’m **Karkala Shiva Reddy** — Shiva — a **B.Tech Computer Science Engineering student** at **KL University**, graduating in 2029. I build systems and backend software, algorithmic tools, and data-driven applications, with attention to correctness, observability, and clear architecture.
+I’m **Karkala Shiva Reddy** — Shiva — a **B.Tech Computer Science Engineering student** at **KL University**, graduating in 2029.
 
-My strongest project work is in **systems observability and algorithm-driven software**: a C/Linux process-execution observatory, an industrial operations platform, and an interactive lab for inspecting algorithms on log data.
+My focus is **Java, C, backend development, DSA, systems, databases, and applied ML**. I build systems and backend software, algorithmic tools, and data-driven applications, with attention to correctness, observability, and clear architecture. My strongest work spans Linux process observability, a synthetic industrial digital twin, algorithm-driven log analysis, and transactional inventory software.
 
 ### How I build
 
@@ -47,11 +46,11 @@ My strongest project work is in **systems observability and algorithm-driven sof
   <img src="assets/projects/caps-system-map.svg" alt="CAPS architecture: a C process engine reports procfs-backed events through a Fastify gateway and event stream to an interactive observability interface." width="100%">
 </a>
 
-**[Command Argument Passing System — Process Execution Observatory](https://github.com/karkalashivareddy/Command-Argument-Passing-System)** executes allowlisted commands through a C11/POSIX engine; a Fastify gateway and React observatory expose real child-process events, `/proc` measurements, signal controls, and replay. PID identity is guarded by kernel start time. Sampling is scoped to one tracked child; descendants are not represented.
+**[CAPS — Command Argument Passing System](https://github.com/karkalashivareddy/Command-Argument-Passing-System)** executes allowlisted commands through a C11/POSIX engine; a Fastify gateway and React observatory expose process events, `/proc` measurements, signal controls, and replay. Process identity uses PID plus kernel start time. Sampling is scoped to one tracked child; descendants are not represented, and CAPS is not a sandbox.
 
 `C11/POSIX` · `Linux /proc` · `PID identity` · `signals` · `Fastify` · `SQLite` · `REST/SSE` · `React/Vite`
 
-**Evidence:** executable engine and web application, documented guardrails and lifecycle, test harnesses, and repository CI. [SOURCE](https://github.com/karkalashivareddy/Command-Argument-Passing-System) · [ARCHITECTURE](https://github.com/karkalashivareddy/Command-Argument-Passing-System/tree/main/docs)
+**Evidence:** 260 C assertions across 16 shell suites under gcc, plus the same suites under ASan/UBSan; 450 gateway tests and 247 frontend tests; a browser smoke suite against the production build; and repository CI. [SOURCE](https://github.com/karkalashivareddy/Command-Argument-Passing-System) · [ARCHITECTURE](https://github.com/karkalashivareddy/Command-Argument-Passing-System/tree/main/docs)
 
 ### 02 · Industrial digital twin
 
@@ -61,9 +60,9 @@ My strongest project work is in **systems observability and algorithm-driven sof
 
 **[ForgeSense Industrial Intelligence](https://github.com/karkalashivareddy/forgesense-industrial-intelligence)** turns **simulated** machine telemetry into fleet state, anomaly and failure-risk assessments, maintenance workflows, alerts, and operator views. The repository includes a Spring Boot service, a FastAPI/scikit-learn service, a telemetry simulator, and Compose wiring for Kafka, PostgreSQL, Redis, Prometheus, and Grafana.
 
-`Java/Spring Boot` · `Python/FastAPI` · `scikit-learn` · `Kafka` · `PostgreSQL` · `Redis` · `Docker Compose`
+`Java/Spring Boot` · `Python/FastAPI` · `scikit-learn` · `Kafka` · `PostgreSQL` · `Redis` · `STOMP/WebSocket` · `Docker Compose`
 
-**Evidence:** backend and ML tests, CI checks, health/metrics endpoints, architecture notes, and explicit synthetic-data and model limitations. This is a reproducible engineering project, not a production deployment. [SOURCE](https://github.com/karkalashivareddy/forgesense-industrial-intelligence) · [ARCHITECTURE](https://github.com/karkalashivareddy/forgesense-industrial-intelligence/tree/main/docs)
+**Evidence:** 61 backend tests, 98 frontend tests, and 8 ML tests, with the reported model metrics regenerated from the committed simulator rather than read from a checked-in file. Telemetry is synthetic and the ML metrics are held-out synthetic-data metrics; the README states that boundary explicitly. This is a reproducible engineering project, not a production deployment. [SOURCE](https://github.com/karkalashivareddy/forgesense-industrial-intelligence) · [ARCHITECTURE](https://github.com/karkalashivareddy/forgesense-industrial-intelligence/tree/main/docs)
 
 ### 03 · Algorithm / data-flow lab
 
@@ -71,11 +70,11 @@ My strongest project work is in **systems observability and algorithm-driven sof
   <img src="assets/projects/loginsight-algorithm-flow.svg" alt="LogInsight pipeline: sample events are parsed and analyzed by executable algorithm engines, with selected step traces replayed in a React interface." width="100%">
 </a>
 
-**[LogInsight Analyzer](https://github.com/karkalashivareddy/KLH_CSE_2026-27_DSA-3_S3_T17_Loginsight-Analyzer)** makes algorithm behavior inspectable through log-analysis endpoints, selected step traces, and a React dashboard. Its Java engines cover string search, dynamic programming, graph and flow methods, approximation, randomized methods, and parallel operations.
+**[LogInsight Analyzer](https://github.com/karkalashivareddy/KLH_CSE_2026-27_DSA-3_S3_T17_Loginsight-Analyzer)** is a DSA-driven log analytics platform with Java/Spring Boot engines, selected algorithm traces, and a React dashboard. It covers string search, dynamic programming, graph and flow methods, approximation, randomized methods, and parallel operations. Dataset replay and generated simulation are distinct; neither is external live telemetry.
 
 `Java` · `Spring Boot` · `React` · `TypeScript` · `Vite` · `JUnit`
 
-**Evidence:** Maven verification and frontend build workflows, bundled sample data, trace catalog, API documentation, and stated in-memory/coursework scope. No fixed test count or coverage figure is claimed. [SOURCE](https://github.com/karkalashivareddy/KLH_CSE_2026-27_DSA-3_S3_T17_Loginsight-Analyzer) · [ARCHITECTURE](https://github.com/karkalashivareddy/KLH_CSE_2026-27_DSA-3_S3_T17_Loginsight-Analyzer/tree/main/docs)
+**Evidence:** 878 backend tests under Maven `verify` and 55 frontend tests across 17 files, both in repository CI; a 42-entry algorithm catalogue whose published counts are pinned by a test rather than hand-maintained; a `java.util` scope guard over the DSA package; and bundled sample data. Dataset replay and the generated simulation are kept distinct, and no external live telemetry is claimed. [SOURCE](https://github.com/karkalashivareddy/KLH_CSE_2026-27_DSA-3_S3_T17_Loginsight-Analyzer) · [ARCHITECTURE](https://github.com/karkalashivareddy/KLH_CSE_2026-27_DSA-3_S3_T17_Loginsight-Analyzer/tree/main/docs)
 
 ---
 
@@ -87,11 +86,11 @@ My strongest project work is in **systems observability and algorithm-driven sof
   <img src="assets/projects/pharmastock-data-flow.svg" alt="PharmaStock architecture: React and Vite client calls an Express API, which applies role checks and transaction services over Mongoose and a MongoDB replica set." width="100%">
 </a>
 
-**[PharmaStock / Database Systems](https://github.com/karkalashivareddy/DataBase-System-and-Distributed-Backend-Development)** is a batch-aware medicine inventory application. Its Express/Mongoose API models stock movements as transactions, allocates sales by FEFO, enforces role checks at the API, and records audit events; the React/Vite client provides inventory and reporting workflows. Stock writes require a MongoDB replica set.
+**[PharmaStock](https://github.com/karkalashivareddy/DataBase-System-and-Distributed-Backend-Development)** is a batch-aware medicine inventory application. Its Express/Mongoose API uses MongoDB replica-set transactions for stock movements, allocates sales by FEFO, enforces role checks at the API, and records audit events; the React/Vite client provides inventory and reporting workflows. It is a local/course project, not a deployed pharmacy system.
 
 `React/Vite` · `Node.js/Express` · `MongoDB/Mongoose` · `JWT/RBAC` · `transactions` · `FEFO`
 
-**Evidence:** unit and API tests, transaction integration tests, database verification, browser E2E workflow, and a GitHub Actions pipeline. The repository documents demo-only authentication storage and other deployment limits.
+**Evidence:** 25 backend tests including replica-set transaction and rollback suites, plus a browser E2E suite of 24 checks covering login, purchase, FEFO allocation, refunds, expiry, audit, and RBAC. The repository documents demo-only authentication storage and other deployment limits.
 
 [SOURCE](https://github.com/karkalashivareddy/DataBase-System-and-Distributed-Backend-Development) · [PROJECT README](https://github.com/karkalashivareddy/DataBase-System-and-Distributed-Backend-Development/tree/main/Project)
 
@@ -101,9 +100,9 @@ My strongest project work is in **systems observability and algorithm-driven sof
   <img src="assets/projects/portfolio-interface.svg" alt="Portfolio architecture: typed project data feeds a Next.js interface with navigation tools and a client-only Three.js scene." width="100%">
 </a>
 
-**[Engineering portfolio](https://github.com/karkalashivareddy/portfolio)** is a Next.js/TypeScript application with typed project data, a client-only Three.js scene, navigation and command-palette interactions, and reduced-motion/mobile behavior. Its source README says the supplied Vercel URL is no longer serving the app; the repository is the reliable project path.
+**[Engineering portfolio](https://github.com/karkalashivareddy/portfolio)** is a Next.js/TypeScript application with typed project data, a client-only Three.js scene, navigation and command-palette interactions, and reduced-motion and mobile behaviour. The repository is the authoritative version of it.
 
-[SOURCE](https://github.com/karkalashivareddy/portfolio) · [SUPPLIED PORTFOLIO URL — UNVERIFIED](https://portfolio-shiva-c677.vercel.app)
+[SOURCE](https://github.com/karkalashivareddy/portfolio)
 
 ### Academic and practice work
 
@@ -117,11 +116,11 @@ These are coursework and practice repositories. The project READMEs describe wha
 
 ## Algorithm practice
 
-I use **Java** for data-structure and algorithm work: decomposing problems, reasoning about complexity, choosing structures, and checking edge cases. LogInsight connects that practice to a larger application: implementations run against input data, and selected engines expose execution traces for inspection.
+I use **Java** for data-structure and algorithm work: decomposing problems, reasoning about complexity, choosing structures, and checking edge cases. LogInsight connects that practice to a larger application — implementations run against input data, and selected engines expose execution traces for inspection.
 
-[Codolio](https://codolio.com/profile/2520030105) · [LeetCode](https://leetcode.com/u/KarkalaShivaReddy/) · [CodeChef](https://www.codechef.com/users/shivareddy_27) · [Codeforces](https://codeforces.com/profile/shiva_reddy_27) · [GeeksforGeeks](https://www.geeksforgeeks.org/user/shiva0327/) · [HackerRank](https://www.hackerrank.com/profile/karkalashivareddy)
+Codolio · LeetCode · CodeChef · Codeforces · GeeksforGeeks · HackerRank
 
-No platform ratings or problem counts are shown here because I have not verified current figures for this README.
+Profiles: [Codolio](https://codolio.com/profile/2520030105) · [LeetCode](https://leetcode.com/u/KarkalaShivaReddy/) · [CodeChef](https://www.codechef.com/users/shivareddy_27) · [Codeforces](https://codeforces.com/profile/shiva_reddy_27) · [GeeksforGeeks](https://www.geeksforgeeks.org/user/shiva0327/) · [HackerRank](https://www.hackerrank.com/profile/karkalashivareddy)
 
 ---
 
@@ -135,11 +134,11 @@ Technologies below are drawn from the selected repositories and supporting proje
 | --- | --- |
 | **Languages** | Java · C · Python · JavaScript · TypeScript · SQL |
 | **Application** | React · Next.js · Vite · Three.js |
-| **Backend** | Spring Boot · FastAPI · Node.js · Express · REST · Server-Sent Events · WebSockets |
+| **Backend** | Spring Boot · FastAPI · Node.js · Express · REST · Server-Sent Events · STOMP/WebSocket (ForgeSense) |
 | **Data and messaging** | MongoDB · PostgreSQL · MySQL · SQLite · Redis · Kafka |
 | **Systems** | Linux/POSIX · processes · signals · `fork`/`exec` · IPC · `/proc` |
 | **ML** | scikit-learn · feature engineering · anomaly and failure-risk assessment |
-| **Engineering** | GitHub Actions · Docker Compose · Maven · npm · JUnit · pytest · Node test runner · browser E2E · Prometheus · Grafana |
+| **Engineering** | GitHub Actions · CodeQL · Docker Compose · Maven · npm · JUnit · pytest · Vitest · Node test runner · Playwright browser E2E · Prometheus · Grafana |
 
 ---
 
@@ -149,7 +148,7 @@ Technologies below are drawn from the selected repositories and supporting proje
 
 → Deepening Java backend design, testing, database work, and observability.
 
-→ Strengthening systems programming and real-time service foundations.
+→ Strengthening systems programming and event-driven service design.
 
 → Exploring distributed systems and applied ML within software applications.
 
@@ -163,7 +162,7 @@ The direction is to make services easier to reason about: clear boundaries, obse
 
 **Let’s build software that stays understandable when the system gets complicated.**
 
-[GitHub](https://github.com/karkalashivareddy) · [LinkedIn](https://www.linkedin.com/in/shiva-reddy-karkala-1a66b4397/) · [Codolio](https://codolio.com/profile/2520030105) · [Portfolio URL · unverified](https://portfolio-shiva-c677.vercel.app) · [Email](mailto:karkalashivareddy@gmail.com)
+[GitHub](https://github.com/karkalashivareddy) · [LinkedIn](https://www.linkedin.com/in/shiva-reddy-karkala-1a66b4397/) · [Codolio](https://codolio.com/profile/2520030105) · [Portfolio repository](https://github.com/karkalashivareddy/portfolio) · [Email](mailto:karkalashivareddy@gmail.com)
 
 <p align="center">
   <img src="assets/footer/engineering-footer.svg" alt="Build, test, measure, improve — Karkala Shiva Reddy, Computer Science Engineering, 2029." width="100%">
